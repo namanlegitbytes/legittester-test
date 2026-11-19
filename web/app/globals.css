@@ -1,0 +1,16 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f8fafc; color: #0f172a; }
+header { display: flex; gap: 16px; align-items: center; padding: 12px 24px; background: #0f172a; color: #fff; }
+header a { color: #fff; text-decoration: none; }
+header .spacer { flex: 1; }
+main { max-width: 960px; margin: 0 auto; padding: 24px; }
+.card { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin-bottom: 12px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+button { padding: 6px 12px; border-radius: 6px; border: 1px solid #cbd5e1; background: #fff; cursor: pointer; }
+button.primary { background: #0f172a; color: #fff; border-color: #0f172a; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+input, select { padding: 6px 8px; border: 1px solid #cbd5e1; border-radius: 6px; }
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+.err { color: #b91c1c; } .ok { color: #15803d; } .muted { color: #64748b; font-size: 14px; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #e2e8f0; font-size: 12px; }
+table { width: 100%; border-collapse: collapse; } td, th { text-align: left; padding: 6px 8px; border-bottom: 1px solid #f1f5f9; }
+.totals div { display: flex; justify-content: space-between; padding: 2px 0; } .totals .grand { font-weight: 700; border-top: 1px solid #e2e8f0; margin-top: 4px; padding-top: 6px; }
